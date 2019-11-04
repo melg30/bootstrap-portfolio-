@@ -1,11 +1,5 @@
-body {
-    background-image: url("../images/new_year_background.png");
-    background-repeat: repeat-x repeat-y;
-    margin: 0%;
-    
- }
 
- #about {
+ #about, #contact, #portfolio {
     color: #4aaaa5;
 }
 
@@ -15,5 +9,31 @@ body {
     padding: 20px;
     background-color: #ffffff;
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+    
+}
+
+  
+.navbar-toggler {
+    background-color: #ffffff;
+    
+}
+
+    
+
+html, body {
+    height: 85%;
+  }
+  
+body {
+    display: flex;
+    flex-direction: column;
+  }
+
+.title {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    
     
 }
