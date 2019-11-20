@@ -14,12 +14,6 @@
     
 }
 
-  
-.navbar-toggler {
-    background-color: #ffffff;
-    
-}
-
     
 
 html, body {
@@ -31,9 +25,14 @@ body {
     flex-direction: column;
   }
 
-.title {
+  .navbar-light .navbar-brand {
     color: #ffffff;
     background-color: #4aaaa5;
     
     
+}
+
+
+.footer {
+  height: 50px;
 }
